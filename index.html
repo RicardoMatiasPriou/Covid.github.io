@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORONAVIRUS</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var banner = document.querySelector('.banner');
+            menuToggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#" onclick="toggleMenu();">Home</a></li><br>
+            <li><a href="https://www.argentina.gob.ar/coronavirus/cuidarnos" onclick="toggleMenu();">Cuidados</a></li><br>
+            <li><a href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19/sala-situacion" onclick="toggleMenu();">Información Epidemiológica</a></li><br>
+            <li><a href="https://www.argentina.gob.ar/coronavirus/telefonos" onclick="toggleMenu();">Telefonos Utiles</a></li><br><br><br>
+            <li><a href="#" onclick="toggleMenu();">Close</a></li>
+        </ul>
+    </div>
+    <section class="banner">
+        <header>
+            <h2 class="logo">covid-19</h2>
+            <div class="toggle" onclick="toggleMenu();"></div>
+        </header>
+        <video src="production ID_4753946.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Cuidemonos</h2>
+            <h3>El covid-19 ya es parte de nuestra vida</h3>
+            <p>La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID-19 es una pandemia que afecta a muchos países de todo el mundo.
+            </p>
+            <a href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19?utm_source=search&utm_medium=cpc&utm_campaign=coronavirus&utm_term=grants&utm_content=nacional&gclid=CjwKCAiA4o79BRBvEiwAjteoYHh9tcVj_PPUDMbUiErJyi1D2pAW7t8zu4VVWJCtKEfYiFM5OKMofhoCT2kQAvD_BwE">Mas informacion</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/msalnacion"><img src="facebook.png" ></a></li>
+            <li><a href="https://twitter.com/msalnacion"><img src="twitter.png" ></a></li>
+            <li><a href="https://www.instagram.com/msalnacion/"><img src="instagram.png" ></a></li>
+        </ul>
+    </section>
+</body>
+</html>
